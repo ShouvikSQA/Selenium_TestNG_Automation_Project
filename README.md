@@ -15,7 +15,7 @@ It is an project where we have automated Different scenarios using Selenium and 
 - Clone the project
 - Open the project from IntellIJ; File>Open>Select and expand folder>Open as project
 - Hit this command: `gradle clean test -PsuiteName="regressionSuite.xml"` to run the regression suite or `gradle clean test -PsuiteName="smokeSuite.xml"` to run the smoke suite.
-- Generate Allure report:
+## Generate Allure report:
 
 - ``` allure generate allure-results --clean -output ``` 
 -   ``` allure serve allure-results ```
@@ -32,12 +32,12 @@ It is an project where we have automated Different scenarios using Selenium and 
 8. Create Regression Suite and Smoke Suite, ANd run them individually.
 
 ## Output -
-### Smoke Suite :
+### Smoke Suite Report :
    ![image](https://github.com/user-attachments/assets/aaf94f53-9ab5-478d-9955-f45074e47f94)
    ![image](https://github.com/user-attachments/assets/3b653c79-2728-41b8-b94b-49fab66e3177)
 
 
- ### Regression Suite :
+ ### Regression Suite Report :
    ![image](https://github.com/user-attachments/assets/484d1787-8931-41cb-9185-361d964a0afb)
    ![image](https://github.com/user-attachments/assets/0cc03e69-7faf-4443-b89e-01d7a0875248)
 
