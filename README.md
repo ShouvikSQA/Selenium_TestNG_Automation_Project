@@ -5,20 +5,6 @@ It is an project where we have automated Different scenarios using Selenium and 
 - Build System: Gradle
 - Automation tool and framework: Selenium and TestNG
 - Data manipulation: Simple JSON and CSV Parser
-## Project Flow:
-- Check if admin can login and see user data list
-- Register new users
-- Login by latest user
-- Create daily expenditure
-- See profile data
-## How to run this project
-- Clone the project
-- Open the project from IntellIJ; File>Open>Select and expand folder>Open as project
-- Hit this command: `gradle clean test -PsuiteName="regressionSuite.xml"` to run the regression suite or `gradle clean test -PsuiteName="smokeSuite.xml"` to run the smoke suite.
-## Generate Allure report:
-
-- ``` allure generate allure-results --clean -output ``` 
--   ``` allure serve allure-results ```
 
 ## Peoject Description -
 
@@ -30,6 +16,17 @@ It is an project where we have automated Different scenarios using Selenium and 
 6. Print the total cost and assert it against your expected total sum of the amounts.
 7. Search for an item by name from the list and assert that the total cost matches the item's price.
 8. Create Regression Suite and Smoke Suite, ANd run them individually.
+
+## How to run this project
+- Clone the project
+- Open the project from IntellIJ; File>Open>Select and expand folder>Open as project
+- Hit this command: `gradle clean test -PsuiteName="regressionSuite.xml"` to run the regression suite or `gradle clean test -PsuiteName="smokeSuite.xml"` to run the smoke suite.
+## Generate Allure report:
+
+- ``` allure generate allure-results --clean -output ``` 
+-   ``` allure serve allure-results ```
+
+
 
 ## Output -
 ### Smoke Suite Report :
