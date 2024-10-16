@@ -30,13 +30,19 @@ It is an project where we have automated Different scenarios using Selenium and 
 
 ## Output -
 ### Smoke Suite Report :
-   ![image](https://github.com/user-attachments/assets/aaf94f53-9ab5-478d-9955-f45074e47f94)
-   ![image](https://github.com/user-attachments/assets/3b653c79-2728-41b8-b94b-49fab66e3177)
+   ![image](https://github.com/user-attachments/assets/56eab2c2-1280-470d-86a1-74a62f32565f)
+
+  ![image](https://github.com/user-attachments/assets/22f31be6-245a-40ce-880b-e8e70530bd52)
+
 
 
  ### Regression Suite Report :
-   ![image](https://github.com/user-attachments/assets/484d1787-8931-41cb-9185-361d964a0afb)
-   ![image](https://github.com/user-attachments/assets/0cc03e69-7faf-4443-b89e-01d7a0875248)
+   ![image](https://github.com/user-attachments/assets/97915069-8989-4da5-8e8b-03c360762ce0)
+
+   
+   ![image](https://github.com/user-attachments/assets/4a91a66b-b5c3-47a6-8c92-d04d6948b601)
+
+  
 
 
 ### Output Video Link :
