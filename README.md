@@ -30,21 +30,27 @@ It is an project where we have automated Different scenarios using Selenium and 
 
 ## Output -
 ### Smoke Suite Report :
-   ![image](https://github.com/user-attachments/assets/56eab2c2-1280-470d-86a1-74a62f32565f)
+![image](https://github.com/user-attachments/assets/67ebba38-6bd5-480d-984a-0e0de190941c)
+
+
 
   ![image](https://github.com/user-attachments/assets/22f31be6-245a-40ce-880b-e8e70530bd52)
 
 
 
  ### Regression Suite Report :
-   ![image](https://github.com/user-attachments/assets/97915069-8989-4da5-8e8b-03c360762ce0)
+   ![image](https://github.com/user-attachments/assets/459094b2-3b2a-4a5c-847c-0c5e0d3c16b3)
+
+
 
    
-   ![image](https://github.com/user-attachments/assets/4a91a66b-b5c3-47a6-8c92-d04d6948b601)
+   ![image](https://github.com/user-attachments/assets/8b805ffc-4562-486d-8bc8-bfc26db3d284)
+
 
   
 
 
 ### Output Video Link :
-[Click Here To see the output video of the Automation Script ](https://drive.google.com/file/d/1evSPDyAEH9krNoUslPTzJ6QK81Zoi9Et/view?usp=sharing)
+-  [Click Here To see the output video of Smoke Suite Automation Script ](https://drive.google.com/file/d/1UOgzquutpV7HKzWAnYEGZd0_SrC2XCcn/view?usp=sharing)
+- [Click Here To see the output video of Regression Suite Automation Script ](https://drive.google.com/file/d/1Wb2csy888SR6k4PsrnF4nQPT-6FwISeX/view?usp=sharing)
     
