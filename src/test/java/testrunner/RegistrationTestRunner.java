@@ -25,7 +25,8 @@ public class RegistrationTestRunner extends Setup {
         userReg.btnRegister.click();
         String firstname=faker.name().firstName();
         String lastname=faker.name().lastName();
-        String email=faker.internet().emailAddress();
+        //String email=faker.internet().emailAddress();
+        String email = Utils.geneateRandomEmail();
         String password="1234";
         String phonenumber= "01505"+Utils.generateRandomNumber(100000,999999);
         String address=faker.address().fullAddress();
@@ -49,6 +50,8 @@ public class RegistrationTestRunner extends Setup {
         userObj.put("phoneNumber",phonenumber);
         userObj.put("address",address);
         Utils.saveUserInfo("./src/test/resources/users.json",userObj);
+
+        // Waiting for register button to be loaded and clickable properly
        // Thread.sleep(3000);
         WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(40));
         wait.until(ExpectedConditions.elementToBeClickable(userReg.btnRegister));
@@ -60,7 +63,8 @@ public class RegistrationTestRunner extends Setup {
 
         userReg.btnRegister.click();
         String firstname=faker.name().firstName();
-        String email=faker.internet().emailAddress();
+        //String email=faker.internet().emailAddress();
+        String email = Utils.geneateRandomEmail();
         String password="1234";
         String phonenumber= "01505"+Utils.generateRandomNumber(100000,999999);
         UserModel userModel=new UserModel();
@@ -78,6 +82,8 @@ public class RegistrationTestRunner extends Setup {
         userObj.put("phoneNumber",phonenumber);
 
         Utils.saveUserInfo("./src/test/resources/users.json",userObj);
+
+        // Waiting for register button to be loaded and clickable properly
         //Thread.sleep(3000);
         WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(40));
         wait.until(ExpectedConditions.elementToBeClickable(userReg.btnRegister));
@@ -89,7 +95,8 @@ public class RegistrationTestRunner extends Setup {
         Faker faker=new Faker();
         userReg.btnRegister.click();
         String firstname=faker.name().firstName();
-        String email=faker.internet().emailAddress();
+       // String email=faker.internet().emailAddress();
+        String email = Utils.geneateRandomEmail();
         String password="";
         String phonenumber= "01505"+Utils.generateRandomNumber(100000,999999);
         UserModel userModel=new UserModel();
@@ -103,6 +110,11 @@ public class RegistrationTestRunner extends Setup {
 
         // Going Back To the registration Page
         driver.findElement(By.tagName("a")).click();
+
+        // Waiting for register button to be loaded and clickable properly
+        // Thread.sleep(3000);
+        WebDriverWait wait=new WebDriverWait(driver, Duration.ofSeconds(40));
+        wait.until(ExpectedConditions.elementToBeClickable(userReg.btnRegister));
 
 
     }

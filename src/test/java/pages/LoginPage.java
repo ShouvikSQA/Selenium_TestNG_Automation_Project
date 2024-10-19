@@ -12,7 +12,7 @@ public class LoginPage {
     public WebElement txtEmail;
     @FindBy(id="password")
     public WebElement txtPassword;
-    @FindBy(name = "login")
+    @FindBy( css = "button[type='submit']")
     public WebElement btnLogin;
     @FindBy(css = "[data-testid=AccountCircleIcon]")
     public WebElement btnProfileIcon;

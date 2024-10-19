@@ -32,7 +32,7 @@ public class UserProfilePage {
       public void uploadPicture() throws InterruptedException {
             buttons.get(1).click(); // Edit Button
             imgFileSelect.sendKeys(System.getProperty("user.dir")+ "./src/test/resources/WorldCup.jpeg");
-            Thread.sleep(2000);
+           // Thread.sleep(2000);
             buttons.get(1).click();// Upload Image Button
 
             // Image upload Alert
@@ -45,7 +45,10 @@ public class UserProfilePage {
             alert.accept();
 
 
+            WebElement img = driver.findElement(By.className("profile-image"));
+            wait.until(ExpectedConditions.visibilityOf(img));
             buttons.get(2).click();// update button
+
 
             // Profile update alert
             wait.until(ExpectedConditions.alertIsPresent());

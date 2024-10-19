@@ -23,7 +23,8 @@
         <classes>
             <class name="testrunner.UserProfileTestRunner"></class>
         </classes>
-    </test>
+   </test>
+
     <test name="AddCost_TotalCost_SearchItem">
         <classes>
             <class name="testrunner.UserDashboardTestRunner"></class>
