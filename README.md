@@ -34,7 +34,8 @@ It is an project where we have automated Different scenarios using Selenium and 
 
 
 
-  ![image](https://github.com/user-attachments/assets/22f31be6-245a-40ce-880b-e8e70530bd52)
+  ![image](https://github.com/user-attachments/assets/f2e7b39a-092e-4e83-a560-8089cd6cc404)
+
 
 
 
